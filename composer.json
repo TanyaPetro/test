@@ -56,22 +56,5 @@
     },
     "autoload-dev": {
         "psr-4": {"Monolog\\": "tests/Monolog"}
-    },
-    "provide": {
-        "psr/log-implementation": "3.0.0"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-main": "3.x-dev"
-        }
-    },
-    "scripts": {
-        "test": "@php vendor/bin/phpunit",
-        "phpstan": "@php vendor/bin/phpstan analyse"
-    },
-    "config": {
-        "lock": false,
-        "sort-packages": true,
-        "platform-check": false
     }
 }
